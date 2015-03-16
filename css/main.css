@@ -11,19 +11,51 @@ body {
 	margin: 0;
 }
 
+head {
+	background-color: #e7001d;
+}
+
 figure{
 	padding: 0;
 	margin: 0;
+}
+
+nav{
+	color: #ffffff;
+	background-color: #222222;
+	overflow: hidden;
+	padding: none;
+}
+
+ol{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li{
+	width: 50%;
+	float: left;
+	padding: 1em;
+	border: 1px solid black;
 }
 
 main img{
 	width: 100%;
 }
 
+.div-dragon{
+	background-color: #e4c22a;
+}
 
 .div-dragon img{
 	width: 50%;
 	float: left;
+}
+
+.div-goat {
+	color: #ffffff;
+	background-color: #222222;
 }
 
 .div-goat img{
@@ -31,12 +63,27 @@ main img{
 	float: left;
 }
 
+.div-rooster{
+	color: #ffffff;
+	background-color: #e7001d;
+
+}
+
 .div-rooster img{
 	width: 50%;
 	float: left;
 }
 
+.div-ox{
+	background-color: #e4c22a;
+}
+
 .div-ox img{
 	width: 50%;
 	float: left;
+}
+
+aside{
+	color: #ffffff;
+	background-color: #222222;
 }
