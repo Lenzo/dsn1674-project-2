@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	margin: 0;
+}
+
+figure{
+	padding: 0;
+	margin: 0;
+}
+
+main img{
+	width: 100%;
+}
+
+
+.div-dragon img{
+	width: 50%;
+	float: left;
+}
+
+.div-goat img{
+	width: 50%;
+	float: left;
+}
+
+.div-rooster img{
+	width: 50%;
+	float: left;
+}
+
+.div-ox img{
+	width: 50%;
+	float: left;
+}
