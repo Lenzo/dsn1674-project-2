@@ -11,8 +11,30 @@ body {
 	margin: 0;
 }
 
-head {
+header {
+	position: relative;
+	color: #ffffff;
+	overflow: hidden;
 	background-color: #e7001d;
+	font-size: .5em;
+	text-align: center;
+	padding: 1em;
+}
+
+header img {
+	width: 100px;
+	position: absolute;
+	left: calc(50% - 50px);
+	top: 22px;
+	z-index: 0;
+}
+
+h1{
+	position: relative;
+}
+
+.h1-char{
+	font-size: 3.5em;
 }
 
 figure{
@@ -20,17 +42,32 @@ figure{
 	margin: 0;
 }
 
+figcaption{
+	font-weight: 700italic;
+}
+
 nav{
 	color: #ffffff;
 	background-color: #222222;
 	overflow: hidden;
 	padding: none;
+	font-weight: 700;
 }
 
 ol{
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+}
+
+nav a{
+	font-style: ;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav a:hover{
+	color: #e4c22a;
 }
 
 nav li{
@@ -42,6 +79,15 @@ nav li{
 
 main img{
 	width: 100%;
+}
+
+h2{
+	margin-top: 0;
+}
+
+p{
+	margin-bottom: 0;
+	padding: 1em;
 }
 
 .div-dragon{
