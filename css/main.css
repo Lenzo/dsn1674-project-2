@@ -37,15 +37,6 @@ h1{
 	font-size: 3.5em;
 }
 
-figure{
-	padding: 0;
-	margin: 0;
-}
-
-figcaption{
-	font-weight: 700italic;
-}
-
 nav{
 	color: #ffffff;
 	background-color: #222222;
@@ -61,7 +52,6 @@ ol{
 }
 
 nav a{
-	font-style: ;
 	text-decoration: none;
 	color: #ffffff;
 }
@@ -71,27 +61,63 @@ nav a:hover{
 }
 
 nav li{
+	font-weight: 400;
 	width: 50%;
 	float: left;
 	padding: 1em;
 	border: 1px solid black;
 }
 
-main img{
+figure{
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+figcaption{
+	font-style: italic;
+	font-weight: 400;
+	position: absolute;
+	text-align: center;
+	top: 67%;
+	font-size: 2em;
+	color: #ffffff;
 	width: 100%;
 }
 
+img{
+	width: 100%;
+}
+
+
 h2{
 	margin-top: 0;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 10px;
 }
 
 p{
 	margin-bottom: 0;
-	padding: 1em;
+	padding: .5em;
+	line-height: 1.5;
 }
+
+div p{
+	font-weight: 400;
+	font-style: italic;
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+div img{
+	padding-bottom: 1em;
+}
+
 
 .div-dragon{
 	background-color: #e4c22a;
+	margin-top: 8;
 }
 
 .div-dragon img{
@@ -130,6 +156,8 @@ p{
 }
 
 aside{
+	text-align: center;
 	color: #ffffff;
 	background-color: #222222;
+	padding: 2em;
 }
