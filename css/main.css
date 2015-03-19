@@ -31,10 +31,12 @@ header img {
 
 h1{
 	position: relative;
+	text-shadow: 0px 2px 4px #000000;
 }
 
 .h1-char{
 	font-size: 3.5em;
+	text-shadow: 0px 2px 4px #000000;
 }
 
 nav{
@@ -43,6 +45,10 @@ nav{
 	overflow: hidden;
 	padding: none;
 	font-weight: 700;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+
+
 }
 
 ol{
@@ -56,7 +62,7 @@ nav a{
 	color: #ffffff;
 }
 
-nav a:hover{
+a:hover{
 	color: #e4c22a;
 }
 
@@ -65,7 +71,8 @@ nav li{
 	width: 50%;
 	float: left;
 	padding: 1em;
-	border: 1px solid black;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
 }
 
 figure{
@@ -82,24 +89,24 @@ figcaption{
 	top: 67%;
 	font-size: 2em;
 	color: #ffffff;
-	width: 100%;
+	width: 100%;	
+	text-shadow: 0px 2px 4px #000000;
 }
 
 img{
 	width: 100%;
 }
 
-
 h2{
 	margin-top: 0;
 	font-weight: 700;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 1em;
 }
 
 p{
 	margin-bottom: 0;
-	padding: .5em;
+	padding: 0em 1em 1.5em .5em;
 	line-height: 1.5;
 }
 
@@ -107,11 +114,12 @@ div p{
 	font-weight: 400;
 	font-style: italic;
 	text-align: center;
-	padding-bottom: 2em;
+	padding-bottom: 1.5em;
 }
 
 div img{
-	padding-bottom: 1em;
+	padding: 1em;
+
 }
 
 
@@ -137,7 +145,7 @@ div img{
 
 .div-rooster{
 	color: #ffffff;
-	background-color: #e7001d;
+	background-color: #bc0317;
 
 }
 
@@ -155,9 +163,17 @@ div img{
 	float: left;
 }
 
-aside{
+aside {
 	text-align: center;
 	color: #ffffff;
 	background-color: #222222;
 	padding: 2em;
+	font-size: .8em;
 }
+
+aside a{
+	text-decoration: underline;
+	color: #ffffff
+}
+
+	
