@@ -43,12 +43,10 @@ nav{
 	color: #ffffff;
 	background-color: #222222;
 	overflow: hidden;
-	padding: none;
+	padding: 0;
 	font-weight: 700;
 	border-bottom: 1px solid black;
 	border-right: 1px solid black;
-
-
 }
 
 ol{
@@ -119,13 +117,11 @@ div p{
 
 div img{
 	padding: 1em;
-
 }
 
 
 .div-dragon{
 	background-color: #e4c22a;
-	margin-top: 8;
 }
 
 .div-dragon img{
@@ -146,7 +142,6 @@ div img{
 .div-rooster{
 	color: #ffffff;
 	background-color: #bc0317;
-
 }
 
 .div-rooster img{
